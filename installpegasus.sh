@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.pegasus'
 COIN_DAEMON='pegasusd'
 COIN_CLI='pegasus-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='http://gregmcwolf.xyz/senpai/pegasus.tar.gz'
+COIN_TGZ='https://github.com/AstaClover/peginnstall/releases/download/v.10/pegasus.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='pegasus'
 COIN_PORT=2171
@@ -136,6 +136,13 @@ addnode=89.252.164.26
 addnode=89.252.164.27
 addnode=89.252.164.28
 addnode=212.154.74.91
+addnode=8.12.16.244
+addnode=198.46.179.174
+addnode=199.247.19.155
+addnode=140.143.208.254
+addnode=149.28.53.16
+addnode=118.25.137.211
+addnode=89.252.164.29
 EOF
 }
 
